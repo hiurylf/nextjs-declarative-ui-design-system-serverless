@@ -1,4 +1,4 @@
-# Basic example of using Serverless with [Next.js](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/) using Designer System and also Declarative UI with [Chakra UI](https://chakra-ui.com/)
+# Basic example of using Serverless with [Next.js](https://nextjs.org/) + [TypeScript](https://www.typescriptlang.org/) + [mongoDB](https://www.mongodb.com/) using Designer System and also Declarative UI with [Chakra UI](https://chakra-ui.com/)
 
 ## View [Demo](https://nextjs-declarative-ui-design-system-serverless.vercel.app/login)
 
