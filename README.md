@@ -4,6 +4,8 @@
 
 ## View [Demo](https://nextjs-declarative-ui-design-system-serverless.vercel.app/) with Serveless and MongoDB 
 
+### You will need mongodb's URI, [here](https://docs.mongodb.com/manual/reference/connection-string/) you will have the instructions to get it
+
 ## How to use with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/)
 
 ### Install

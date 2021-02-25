@@ -1,5 +1,5 @@
 import {NowRequest, NowResponse} from '@vercel/node';
-import {MongoClient, Db} from 'mongodb';
+import {Db, MongoClient} from 'mongodb';
 import url from 'url';
 
 let cachedDb: Db = null;
@@ -16,9 +16,7 @@ async function connectToDatabase(uri: string) {
 
     const dbName = url.parse(uri).pathname.substr(1);
 
-    const db = cliente.db(dbName);
-
-    return db;
+    return cliente.db(dbName);
 }
 
 export default async (request: NowRequest, response: NowResponse) => {
