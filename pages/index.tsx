@@ -56,7 +56,7 @@ export default function Newsletter(props) {
                     marginTop={6}
                     _hover={{backgroundColor: 'purple.600'}}
                 >
-                    INSCREVERr
+                    INSCREVER
                 </Button>
             </Flex>
         </Flex>
